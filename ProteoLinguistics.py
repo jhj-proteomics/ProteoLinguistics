@@ -64,9 +64,9 @@ def process_all_fasta_files(directory_path, dictionary_filename, results_directo
             print(f"Words matched: {len(matched_words)}")
             print(f"Results saved to {output_filename}\n")
 
-directory_path = 'C:\\Users\\skl448\\Desktop\\proteomic_linguistics\\fasta'
-dictionary_filename = 'C:\\Users\\skl448\\Desktop\\proteomic_linguistics\\words_alpha.txt'
-results_directory = 'C:\\Users\\skl448\\Desktop\\proteomic_linguistics\\results'
+directory_path = ''
+dictionary_filename = ''
+results_directory = ''
 
 # Ensure the results directory exists
 if not os.path.exists(results_directory):
