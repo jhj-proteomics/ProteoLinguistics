@@ -1,13 +1,12 @@
 # ProteoLinguistics
-Welcome to the world of ProteoLinguistics. 
+Have you ever contemplated the potential of individual proteins concealing patterns or messages within their amino acid sequences? While these molecules don't carry deliberate messages, the exploration of such patterns can offer an intriguing lens into molecular biology.
 
-Did ever think about how individial proteins might hide hidden messages in the amino acid sequence?
+With rigorous methodology and the integration of computational tools, I've developed (in collaboration with ChatGPT-4) a robust script. This script processes .fasta files, commonly sourced from databases like UniProt, by cross-referencing them against a comprehensive English dictionary. The outcomes of this analysis are systematically compiled into a .csv file, offering a structured yet fascinating perspective on coincidental linguistic patterns in protein sequences.
 
-No? Well, they don't. At least not intentionally. However, it's a fun game to play either by yourself for your own amusement or together with friends or fellow nerds.
+For users with an extensive collection of .fasta files, our script is optimized to handle batch processing of an entire directory. However, should you require a singular file analysis, some modifications to the script will be necessary.
 
-For that purpose I have written (or co-written with ChatGPT-4) a short script that will take any .fasta file (from e.g. UniProt) and search it against a 
-list of words from the English dictionary. The results are then saved as a .csv file for you to read and have fun with. 
+This repository houses both the script and the wordlist. The onus of procuring the .fasta files for investigation remains with the user, adding an element of research initiative.
 
-Both the script and the wordlist is saved within this repository but it's up to you to find the .fasta files you want to use. That's also a fun part of this game. 
+I invite you to delve into this confluence of linguistics and molecular biology. 
 
-Have fun!
+Happy analyzing!
